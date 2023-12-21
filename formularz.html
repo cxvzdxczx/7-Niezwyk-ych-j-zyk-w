@@ -1,0 +1,114 @@
+		
+<!doctype html>
+<html lang="pl">
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css"> <!-- Link do zewnętrznego arkusza stylów -->
+  <meta charset="utf-8"> <!-- Deklaracja kodowania znaków -->
+  <title>Ankieta</title> <!-- Tytuł strony -->
+</head>
+<body style="background-image: url(zd/bga.jpg)"> <!-- Ustawienie tła strony na kolor czarny -->
+
+<!-- Początek sekcji menu -->
+<div id="menu">
+   
+    <!-- Linki do różnych sekcji strony -->
+    <a href="index.html" class="button">HOME</a>
+    <a href="index.html" class="button">O MIEŚCIE</a>
+    <a href="index.html" class="button">MAPA</a>
+    <a href="index.html" class="button">GALERIA</a>
+    <a href="index.html" class="button">MEDIA</a>
+    <a href="#" class="button">ANKIETA</a>
+</div>
+<!-- Koniec sekcji menu -->
+
+<!-- Początek sekcji ankiety -->
+<div class="scroll">
+    <div  id="info" class="content">
+        <div class="cont_info2">
+            <!-- Tabela dla zawartości ankiety -->
+            <table width="1000px" style="padding: 41px;  background-color: #000000c9; border-radius: 60px; margin-bottom: 50px; margin-top: 100px;">
+                <td valign="top" style="text-align: justify;">
+                    <h2 class="h2">Ankieta</h2> 
+                 
+                    <form action="" class="text2">
+                        <label>Imię</label><br>
+                        <input id="imie" type="text" name="imie" maxlength="15" size="20px" class="inputtext input"><br><br>
+                      
+                        <label>Jakie języki obce znasz lub uczysz się aktualnie?</label><br>
+                        <input id="jezyki" type="text" name="jezyki" maxlength="150" size="20px" class="inputtext input"><br><br>
+                        
+                        
+                        <label>Ile znasz języków łącznie?</label><br>
+                        <input id="licz" type="number" name="licz" min="1" max="100" size="5px" class="inputtext input">
+                 
+
+                      
+                        <p>Do jakiej rodziny należy język węgierski?</p>
+                        <input type=checkbox id="Ugrofińskiej" name="dwa" value="Ugrofińskiej" class="input">
+                        <label for="Ugrofińskiej">Ugrofińskiej</label>
+                        <input type=checkbox id="Semickiej" name="dwa" value="Semickiej">
+				        <label for="znajomi">Semickiej</label>
+
+                        <input type=checkbox id="Romańskiej" name="dwa" value="Romańskiej">
+				        <label for="Romańskiej">Romańskiej</label>
+
+                        <input type=checkbox id="slav" name="dwa" value="slav">
+				        <label for="slav">Słowiańskiej</label>
+                        
+                        
+                        
+                       
+                     
+
+                        <p>Czy zdarzyło ci się kiedyś podróżować do kraju, w którym używany jest któryś z tych języków?</p>
+                        <input type="radio" id="tak" name="jeden" value="tak" class="input">
+                        <label for="tak">Tak</label>
+                        <input type="radio" id="Nie" name="jeden" value="Nie" class="input">
+                        <label for="Nie">Nie</label>
+                       
+
+                        
+                        <p>Który język jest jednym z najstarszych na świecie?</p>
+                        <input type="radio" id="Arabski" name="trzy" value="Arabski" class="input">
+                        <label for="Arabski">Arabski</label>
+                        <input type="radio" id="Hindi" name="trzy" value="Hindi" class="input">
+                        <label for="Hindi">Hindi</label>
+                        <input type="radio" id="Islandzki" name="trzy" value="Islandzki" class="input">
+                        <label for="Islandzki">Islandzki</label>
+                        
+
+                       
+
+                        
+                        <p>Który język najbardziej ci się spodobał?</p>
+                        <select name="jezyk" id="jezyk" class="inputtext input">
+                            <option value="palac">Japoński</option>
+                            <option value="palac">Arabski</option>
+                            <option value="palac">Islandzki</option>
+                            <option value="palac">Węgierski</option>
+                            <option value="palac">Hindi</option>
+                            <option value="palac">Koreański</option>
+                            <option value="palac">Aafrikans</option>
+        
+                        </select><br><br>
+
+                        <label for=opinia>Czy sądzisz, że nauka któregoś z tych języków może pomóc w zrozumieniu i lepszym kontakcie z ludźmi z kultur, w których są one używane?</label><br>
+                        <textarea name="opinia" id="opinia" cols="50" rows="5" maxlength="200"></textarea>
+                       
+
+                        
+                        <hr>
+                        <input type=reset class="button">
+                        <input type=submit value="Prześlij" class="button">
+                    </form>
+                 
+                    <div style="width: 100%; justify-content: right;
+                        display: flex;">
+                        <a href="index.html#home" class="button">Powrót do strony głównej</a>
+                    </div>
+                </td>
+            </table>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,347 @@
+
+
+body{margin: 0px;
+  background-color: #7c7c7c;
+  display: block;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+ 
+
+
+}
+#gallery {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+#menu {
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  height: 5vh;
+  background-color: #000000b8;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-shadow: -2px 2px 11px black;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  #menu {
+    height: 4vh; /* Zmiana wysokości dla małych ekranów */
+    font-size: 12px;
+    
+  }
+
+  .stopka {
+    font-size: 12px;
+
+  }
+  #ha2 {
+    display: none;
+  }
+  .content {
+    background: url(zd/langm.jpg) no-repeat fixed;
+  }
+  .scroll {
+    background: url(zd/langm.jpg) no-repeat fixed;
+  }
+  #home {
+    background: url(zd/langm.jpg) no-repeat fixed;
+    
+  }
+}
+
+
+/* Media query dla średnich ekranów */
+@media (min-width: 601px) and (max-width: 1024px) {
+  #menu {
+    height: 5vh; /* Zmiana wysokości dla średnich ekranów */
+    font-size: 14px;
+  }
+
+}
+
+/* Media query dla dużych ekranów */
+@media (min-width: 1025px) {
+  #menu {
+    height: 5vh; /* Domyślna wysokość dla dużych ekranów */
+  }
+}
+
+
+/* Styling for the logo */
+.logo {
+  
+  display: block;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  padding: 10px; /* Adjust padding as needed */
+  /* Other logo styles */
+}
+
+.loader {
+  position: relative; 
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  border: 5px solid #1215b9; 
+  border-bottom: 5px solid transparent; 
+  aspect-ratio: 1;
+
+
+  }
+  
+
+
+  .loader-1 { width: 250px;
+  animation-direction: normal;
+}
+  
+.loader-2 { width: 200px;
+  animation-direction: reverse;
+}
+  
+.loader-3 { width: 150px;
+  animation-direction: normal;
+}
+  
+.loader-4 { width: 100px;
+  animation-direction: reverse;
+}
+  
+.loader-5 { width: 50px;
+  animation-direction: normal;
+}
+
+
+
+#emenu{
+padding: 10px;
+  width: 100%;
+   height: 50%;
+ background-color: #000000b8;
+ margin: 0px;
+ text-align: center;
+ justify-content: center;
+   align-items: center;
+   display: flex;
+   box-shadow: -2px 2px 11px black;
+}
+
+
+.button{  text-decoration: none;
+  margin-bottom: 5px;
+  border: 1px solid #9a9a9a;
+  padding: 10px;
+  border-radius: 6px 6px 6px 6px;
+  color: white;
+  background-color: black;
+  margin-right: 15px;
+  box-shadow: rgb(233, 229, 229);
+	
+}
+
+.button:hover{background-color: rgb(0, 0, 0);
+	color: #ffffff ;
+  text-shadow:  0 0 10px #219cf3 ;
+	transition-duration: 0.4s;
+  border: 1px solid #ffffff ;
+  box-shadow: 
+  0 0 10px rgba(33, 156, 243, 0.5),
+  0 0 10px rgba(33, 156, 243, 0.5),
+  0 0 10px rgba(33, 156, 243, 0.5),
+  0 0 10px #219cf3 inset;
+	}
+
+#home{background: url(zd/lang.jpg) no-repeat fixed;
+background-size: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  margin-left: auto;
+  padding: 0;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+
+
+.stopka{
+  width: 100%;
+  height: 16vh;
+}
+  
+
+.stopka2{
+  height: 50%;
+}
+
+    
+    .kont{
+  margin: 0 auto;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #000000bf;
+	height: 100vh
+}
+
+
+
+ 
+
+.h1{
+  display: block;
+  padding-top: 50px;
+  font-size: 80px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 15px black;
+
+}
+.scroll{
+  width: 100%;
+  scroll-behavior: smooth;
+  height: 100vh;
+  overflow: auto;
+  background: url(zd/bg.jpg) no-repeat fixed;
+}
+
+.content{
+  
+  
+	justify-content: center;
+  align-items: center;
+	background: url(zd/bg.jpg) no-repeat fixed ;
+  background-size: 110%;
+	background-position: center;
+  padding: 20px;
+  font-size: 18px;
+}
+
+
+.tabb {
+  width: 1000px;
+  padding: 41px; 
+  background-color: #00000082; 
+  border-radius: 60px;
+}
+
+
+.square {
+  
+  margin: 100px;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  animation: rotateSquare 4s linear infinite; /* Animation properties */
+}
+
+@keyframes rotateSquare {
+  from {
+    transform: rotate(0deg); /* Initial rotation */
+  }
+  to {
+    transform: rotate(360deg); /* Final rotation */
+  }
+}
+
+
+
+.cont_info{
+	width: 110%;
+	 justify-content: center;
+  align-items: center;
+  display: flex;
+  height: auto;
+  background-color: #0000006e;
+}
+.cont_info2{
+	width: 110%;
+	 justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  background-color: #0000006e;
+}
+
+.text{
+	
+	font-size: 22px;
+	color: white;
+}
+
+.h2{
+   
+    font-size: 30px; /* Zwiększyłem wielkość czcionki */
+    color: rgb(25, 0, 255);
+    margin-top: 0;
+    border-style: groove;
+    border-color: rgb(22, 34, 196);
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+	color: #ffffff ;
+  text-shadow:  0 0 10px #219cf3 ;
+	transition-duration: 0.4s;
+  border: 1px solid #ffffff ;
+  box-shadow: 
+  0 0 10px rgba(33, 156, 243, 0.5),
+  0 0 10px rgba(33, 156, 243, 0.5),
+  0 0 10px rgba(33, 156, 243, 0.5),
+  0 0 10px #219cf3 inset;
+	}
+    
+
+.text2{
+	font-family: "Champagne & Limousines";
+	font-size: 22px;
+	color: #eaeaea;
+}
+.input{margin-left: 40px;}
+
+.inputtext{background-color: #000;
+  border: 1px solid gray;
+  color: white;
+font-size: 18px;}
+
+
+.styled-table{
+
+  border: solid #000;
+}
+.styled-table thead tr {
+  background-color: #003098;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #001c98;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #000a98;
+}
