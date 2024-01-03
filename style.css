@@ -116,7 +116,29 @@ margin-bottom: 10px;
   animation-direction: normal;
 }
 
+   @keyframes loader-anim-1 {
+      0% { width: 0px; }
+      100% { width: 250px; }
+    }
 
+    @keyframes loader-anim-2 {
+      0% { width: 250px; }
+      100% { width: 0px; }
+    }
+
+    @keyframes loader-anim-3 {
+      0% { width: 0px; }
+      100% { width: 150px; }
+    }
+
+    @keyframes loader-anim-4 {
+      0% { width: 150px; }
+      100% { width: 0px; }
+    }
+
+    @keyframes loader-anim-5 {
+      0% { width: 0px; }
+      100% { width: 50px; }
 
 #emenu{
 padding: 10px;
