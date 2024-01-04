@@ -369,3 +369,24 @@ font-size: 18px;}
   font-weight: bold;
   color: #000a98;
 }
+
+
+
+
+@keyframes colorChange {
+ 0% {
+   color: black;
+   transform: scale(1);
+ }
+ 50% {
+   color: blue; /* Change this to the desired color */
+   transform: scale(1.2);
+ }
+ 100% {
+   color: black;
+   transform: scale(1);
+ }
+}
+#soop {
+ animation: colorChange 3s infinite; /* Adjust the duration and iteration count as needed */
+}
